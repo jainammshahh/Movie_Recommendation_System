@@ -41,21 +41,21 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 
 ## Architecture
 
-### Similarity Score :
+### Measuring Similarity:
 
-How does it decide which item is most similar to the item user likes? Here come the similarity scores.
+But how does the system ascertain the most akin item to the user's preference? This is where similarity scores step in.
 
-It is a numerical value ranges between zero to one which helps to determine how much two items are similar to each other on a scale of zero to one. This similarity score is obtained measuring the similarity between the text details of both of the items. So, similarity score is the measure of similarity between given text details of two items. This can be done by cosine-similarity.
+A similarity score is a numerical metric that falls within the range of zero to one, aiding in the assessment of how closely two items resemble each other on a scale. This score is derived by gauging the resemblance between the textual attributes of both items. Essentially, the similarity score quantifies how alike the textual details of two items are. This process is achieved through the utilization of cosine similarity.
 
 ### How Cosine Similarity works?
 
-Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
+Cosine similarity serves as a metric to gauge document similarity, disregarding their size. Mathematically, it quantifies the cosine of the angle between two vectors projected within a multi-dimensional space. This approach is beneficial because it accommodates situations where two akin documents might be distant in terms of Euclidean distance (owing to document size), yet retain a close orientation. A smaller angle signifies greater cosine similarity.
 
-More about Cosine Similarity : Understanding the Math behind Cosine Similarity
+More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
 
 ### Sources of the datasets
 
-1. [The Movies Datase](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)  
+1. [The Movies Database](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)  
 
 3. [List of movies in 2018](https://en.wikipedia.org/wiki/List_of_American_films_of_2018)
 

@@ -51,6 +51,8 @@ A similarity score is a numerical metric that falls within the range of zero to 
 
 Cosine similarity serves as a metric to gauge document similarity, disregarding their size. Mathematically, it quantifies the cosine of the angle between two vectors projected within a multi-dimensional space. This approach is beneficial because it accommodates situations where two akin documents might be distant in terms of Euclidean distance (owing to document size), yet retain a close orientation. A smaller angle signifies greater cosine similarity.
 
+![70401457-a7530680-1a55-11ea-9158-97d4e8515ca4](https://github.com/jainammshahh/Movie_Recommendation_System/assets/114266749/ab55d273-672a-4c08-b6bd-f337493a75f3)
+
 More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
 
 ### Sources of the datasets

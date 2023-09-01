@@ -40,7 +40,7 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 7. Hurray! That's it.
 
 ## Architecture
-<img width="870" alt="Screenshot 2023-08-31 at 11 17 04 PM" src="https://github.com/jainammshahh/Movie_Recommendation_System/assets/114266749/5d18df24-4587-46ea-8d8a-5f1a4cd083ca">
+<img width="771" alt="Screenshot 2023-08-31 at 11 18 11 PM" src="https://github.com/jainammshahh/Movie_Recommendation_System/assets/114266749/a47b6573-fade-448e-bcbb-301aaef534bd">
 
 
 ### Measuring Similarity:

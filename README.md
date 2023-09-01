@@ -1,21 +1,20 @@
 # Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
 
+The Content-Based Recommender System suggests movies that share similarities with the user's preferred movie, alongside an examination of the sentiments expressed in the user's reviews for that particular film.
 
-Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie. 
+To acquire movie specifics such as title, genre, runtime, rating, poster, and more, an API provided by TMDB is utilized (https://www.themoviedb.org/documentation/api). By leveraging the movie's IMDB ID within the API, web scraping techniques are employed to extract user reviews from the IMDB site using the beautifulsoup4 library. Subsequently, a sentiment analysis process is applied to these collected reviews, shedding light on the emotional tones associated with them.
 
-The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
-
-Link to youtube demo: https://www.youtube.com/watch?v=dhVePtyECFw
+Link to demo: https://www.linkedin.com/posts/jainammshahh_movierecommendation-webapplication-techinnovation-activity-7086414544478072832-JXH7?utm_source=share&utm_medium=member_desktop
 
 ## The Movie Cinema
 
-I've developed a similar application called "The Movie Cinema" which supports all language movies. But the only thing that differs from this application is that I've used the TMDB's recommendation engine in "The Movie Cinema". The recommendation part developed by me in this application doesn't support for multi-language movies as it consumes 200% of RAM (even after deploying it to Heroku) for generating Count Vectorizer matrix for all the 700,000+ movies in the TMDB. 
+A web application has been crafted offering comprehensive support for movies spanning various languages. However, a notable distinction between this application and the one you described is that I've harnessed the recommendation engine provided by TMDB within "The Movie Cinema."
 
-Link to "The Movie Cinema" application: https://tmc.kishanlal.dev/
+In this application, the recommendation component I've developed lacks compatibility with multi-language films. This limitation stems from resource constraints, as generating the Count Vectorizer matrix for over 700,000 movies from TMDB strains system memory, even after deploying it on Heroku.
 
-Don't worry if the movie that you are looking for is not auto-suggested. Just type the movie name and click on "enter". You will be good to go eventhough if you made some typo errors.
+If you find that the movie you're seeking isn't automatically suggested, there's no need for concern. You can simply input the movie's name and press "enter." This approach ensures a seamless experience, even if you've made slight typing errors.
 
-Source Code: https://github.com/kishan0725/The-Movie-Cinema
+Source Code: https://github.com/jainammshahh/Movie_Recommendation_System
 
 
 

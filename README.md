@@ -1,4 +1,4 @@
-# Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
+![architecture](https://github.com/jainammshahh/Movie_Recommendation_System/assets/114266749/49eff172-abd6-4802-96d2-9e94fcd36a42)# Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
 
 
 Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie. 
@@ -40,6 +40,8 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 7. Hurray! That's it.
 
 ## Architecture
+<img width="870" alt="Screenshot 2023-08-31 at 11 17 04 PM" src="https://github.com/jainammshahh/Movie_Recommendation_System/assets/114266749/5d18df24-4587-46ea-8d8a-5f1a4cd083ca">
+
 
 ### Measuring Similarity:
 
